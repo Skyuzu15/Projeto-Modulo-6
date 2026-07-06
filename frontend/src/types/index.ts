@@ -27,7 +27,6 @@ export interface Pedido {
   quantidade: number;
   valorTotal: number;
   status: 'pendente' | 'aprovado' | 'enviado' | 'entregue' | 'cancelado';
-  dataPedido?: string;
   createdAt?: string;
   updatedAt?: string;
   usuario?: Usuario;

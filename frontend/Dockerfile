@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY package.json package-lock.json ./
 
-RUN npm ci
+RUN npm install
 
 COPY tsconfig.json ./
 COPY public/ ./public/
