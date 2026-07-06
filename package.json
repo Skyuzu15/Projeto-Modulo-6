@@ -1,0 +1,25 @@
+{
+  "name": "projeto-modulo-6",
+  "version": "1.0.0",
+  "description": "Aplicação Full Stack containerizada com Docker, Nginx como reverse proxy, HTTPS e boas práticas de segurança.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyuzu15/Projeto-Modulo-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Skyuzu15/Projeto-Modulo-6/issues"
+  },
+  "homepage": "https://github.com/Skyuzu15/Projeto-Modulo-6#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
